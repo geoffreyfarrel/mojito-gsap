@@ -26,7 +26,7 @@ export default function Art() {
         stagger: 0.2,
         ease: 'power1.inOut',
       })
-      .to('#masked-img', {
+      .to('.masked-img', {
         scale: 1.3,
         maskPosition: 'center',
         maskSize: '400%',
